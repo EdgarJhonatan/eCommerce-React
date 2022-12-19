@@ -4,6 +4,7 @@ function App() {
   return (
     <div>
       <h1>Hola Mundo {API_URL}</h1>
+      <p>Este es mi ambiente de desarrollo</p>
     </div>
   )
 }
