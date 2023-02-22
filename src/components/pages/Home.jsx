@@ -1,14 +1,16 @@
-import { API_URL } from "../../constants/env";
+import Banner from "../organisms/Banner";
+import MainProducts from "../organisms/MainProducts";
 
-function Home() {
+const Home = () => {
   return (
     <>
+      <Banner />
       <div>
-        <h1>Home {API_URL}</h1>
-        <p>Este es mi ambiente de desarrollo</p>
+        <h2 className="mt-8 text-2xl">Últimos productos</h2>
+        <MainProducts />
       </div>
     </>
   );
-}
+};
 
 export default Home;
