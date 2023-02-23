@@ -3,7 +3,7 @@ import { BASE_URL } from "../../constants/env";
 import ShareItem from "../atoms/ShareItem";
 
 const ShareProduct = ({ id }) => {
-  const URL = `https://${BASE_URL}/products/${id}`;
+  const URL = `https://${BASE_URL}/productos/${id}`;
   return (
     <div>
       <p className="text-lg font-semibold mb-2">Comparte este producto</p>
